@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-phonebook",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "~1.15.2",
+    "cookie-parser": "~1.4.3",
+    "ejs": "^2.6.1",
+    "express": "~4.14.0",
+    "jsonwebtoken": "^5.7.0",
+    "mongoose": "^4.4.12",
+    "mongoose-unique-validator": "^1.0.2",
+    "morgan": "~1.6.1",
+    "multer": "^1.3.1",
+    "path": "^0.12.7",
+    "rxjs": "^5.5.0",
+    "serve-favicon": "~2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
